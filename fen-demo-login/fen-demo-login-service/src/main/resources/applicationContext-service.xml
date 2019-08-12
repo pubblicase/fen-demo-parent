@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <!--扫包-->
+    <context:component-scan base-package="net.wanho.serviceImpl"/>
+    <!--服务名-->
+    <dubbo:application name="fen-demo-login-service"/>
+
+    <!--指定注册中心的地址和类型-->
+    <dubbo:registry protocol="zookeeper" address="192.168.233.100:2181"/>
+
+    <!--指定暴露服务的端口号-->
+    <dubbo:protocol name="dubbo" port="20880"/>
+    
+    <!--发布实际的服务-->
+    <dubbo:service interface="net.wanho.service.HellowServiceI" ref="sayHellowServiceImpl" timeout="30000"/>
+</beans>

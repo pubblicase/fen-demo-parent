@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fen-demo-common/fen-demo-common.iml" filepath="$PROJECT_DIR$/fen-demo-common/fen-demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fen-demo-dao/fen-demo-dao.iml" filepath="$PROJECT_DIR$/fen-demo-dao/fen-demo-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fen-demo-login/fen-demo-login.iml" filepath="$PROJECT_DIR$/fen-demo-login/fen-demo-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fen-demo-login/fen-demo-login-dao/fen-demo-login-dao.iml" filepath="$PROJECT_DIR$/fen-demo-login/fen-demo-login-dao/fen-demo-login-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fen-demo-login/fen-demo-login-interface/fen-demo-login-interface.iml" filepath="$PROJECT_DIR$/fen-demo-login/fen-demo-login-interface/fen-demo-login-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fen-demo-login/fen-demo-login-pojo/fen-demo-login-pojo.iml" filepath="$PROJECT_DIR$/fen-demo-login/fen-demo-login-pojo/fen-demo-login-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fen-demo-login/fen-demo-login-service/fen-demo-login-service.iml" filepath="$PROJECT_DIR$/fen-demo-login/fen-demo-login-service/fen-demo-login-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fen-demo-login/fen-demo-login-web/fen-demo-login-web.iml" filepath="$PROJECT_DIR$/fen-demo-login/fen-demo-login-web/fen-demo-login-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fen-demo-parent.iml" filepath="$PROJECT_DIR$/fen-demo-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fen-demo-pojo/fen-demo-pojo.iml" filepath="$PROJECT_DIR$/fen-demo-pojo/fen-demo-pojo.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fen-demo-login-web:war">
+    <output-path>$PROJECT_DIR$/fen-demo-login/fen-demo-login-web/target</output-path>
+    <root id="archive" name="fen-demo-login-web.war">
+      <element id="artifact" artifact-name="fen-demo-login-web:war exploded" />
+    </root>
+  </artifact>
+</component>
